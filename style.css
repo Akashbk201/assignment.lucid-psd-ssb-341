@@ -144,7 +144,7 @@ a.btn-2:hover::before {
 ===================*/
 
 .feature-title {
-    padding: 80px 0px;
+    padding-bottom: 80px;
 }
 
 .feature-title h3 {
@@ -196,6 +196,7 @@ a.btn-2:hover::before {
 
 .feature-section {
     border-bottom: 1px solid #999999;
+    padding: 80px 0px;
 }
 
 /*======================
@@ -227,7 +228,7 @@ section.about-section {
     color: #999999;
     font-size: 18px;
     font-weight: 300;
-    width: 70%;
+    width: 85%;
 }
 
 .about-text ul {
@@ -269,22 +270,317 @@ section.details-sec {
     width: 100%;
 }
 
+/*========================
+   testimonial section
+========================*/
+
+.testimonial-sec {
+    height: 600px;
+    width: 100%;
+    padding: 80px 0px;
+    background-image: url(images/bottom-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h2.color-fff {
+    color: #fff;
+}
+
+.testimonial-single p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+    font-style: italic;
+    width: 90%;
+}
+
+.co-workers {
+    display: flex;
+}
+
+.co-workers img {
+    width: 14%;
+    margin-right: 20px;
+}
+
+.co-workers p {
+    font-size: 14px;
+    margin-top: 16px;
+    font-weight: 400;
+}
+
+.co-workers p span {
+    font-weight: 700;
+}
+
+/*====================
+      div sec
+====================*/
+
+section.div {
+    padding: 40px 0px;
+    background-color: #000;
+}
+
+.div-text h2 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.div-text h2 span {
+    font-weight: 600;
+}
+
+.div-text {
+    margin-top: 29px;
+    text-align: center;
+}
+
+/*====================
+     pricings-sec
+===================*/
+
+.pricings-sec {
+	padding: 80px 0px;
+}
+
+.post-single {
+    border: 1px solid #999999;
+    text-align: center;
+    padding: 30px 0px;
+    margin: 0px 15px;
+}
+
+.post-single h2 {
+    border-bottom: 1px solid #999999;
+    padding-bottom: 25px;
+	margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+	transition: 1s all ease;
+}
+
+.price {
+    border-bottom: 1px solid #999999;
+    padding: 20px 0px;
+	transition: 1s all ease;
+}
+
+.post-single p {
+    color: #999999;
+    font-size: 18px;
+    width: 85%;
+    margin: 0 auto;
+    font-weight: 300;
+    padding: 30px 0px;
+	transition: 1s all ease;
+}
+
+.post-single a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #008ed6;
+    text-transform: capitalize;
+    display: inline-block;
+    border: 1px solid #999999;
+    padding: 12px 24px;
+    border-radius: 3px;
+	transition: 1s all ease;
+}
 
 
+p.numb {
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+    padding: 0px 0px !IMPORTANT;
+	font-family: 'Source Code Pro', monospace;
+	transition: 1s all ease;
+}
 
+p.numb span {
+    font-size: 30px;
+    font-weight: 700;
+	color: #000 !important;
+	transition: 1s all ease;
+}
 
+.price p {
+    padding: 0px 0px;
+	transition: 1s all ease;
+}
 
+.post-single p span {
+    color: #008ed6;
+}
 
+.post-single::hover .post-single h2 {
+	color: #008ed6 !important;
+}
 
+.post-single::hover .post-single a {
+	background-color: #008ed6 !important;
+	color: #fff;
+}
 
+.post-single:hover .bg {
+    background-color: #008ed6;
+    color: #fff !important;
+}
 
+.post-single:hover .clr {
+    color: #008ed6 !important;
+}
 
+.post-single:hover .numb {
+    color: #fff !important;
+}
 
+.post-single:hover .numb span {
+    color: #fff !important;
+}
 
+.post-single:hover .clr-w {
+    color: #fff !important;
+}
 
+/*======================
+      contact sec 
+=====================*/
 
+.contact-sec {
+	background-color: #ededed;
+	height: 650px;
+	padding: 80px 0px;
+}
 
+.contact-post p {
+    color: #999999;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
 
+.contact-post i {
+    color: #008ed6;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.form-post {
+    display: flex;
+    background-color: #15141a;
+    padding: 30px 20px;
+}
+
+.form-single {
+    flex-basis: 50%;
+}
+
+.form-single input {
+    width: 95%;
+    height: 45px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: transparent;
+    padding: 0px 15px;
+    border: 1px solid #9999;
+    border-radius: 3px;
+}
+
+.form-single input:last-child {
+    margin-bottom: 0px;
+}
+
+.form-single textarea {
+    width: 95%;
+    resize: none;
+    height: 177px;
+    font-size: 14px;
+    background-color: transparent;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    color: #fff;
+    background-color: #008ed6;
+    width: 140px;
+    border: none;
+    border-radius: 3px;
+}
+
+.text-right {
+    text-align: right;
+    padding: 0px 15px;
+    margin-top: 10px;
+}
+
+.form-single input:focus {
+    color: #fff !important;
+}
+
+.form-single textarea:focus {
+    color: #fff !important;
+}
+
+.form-sec {
+    position: relative;
+}
+
+.form-post {
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+/*====================
+    footer section 
+===================*/
+
+.footer-sec {
+	background-color: #15141a;
+	padding: 40px 0px;
+}
+
+ul.footer-icon {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.footer-icon li {
+    display: inline-block;
+    text-align: center;
+    padding: 0px 13px;
+}
+
+ul.footer-icon li a {
+    color: #444348;
+    font-size: 14px;
+    transition: .5s all ease;
+}
+
+.footer-text p {
+    font-size: 14px;
+    text-align: center;
+	margin-top: 7px;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+ul.footer-icon li a:hover {
+    color: #008ed6;
+}
 
 
 
